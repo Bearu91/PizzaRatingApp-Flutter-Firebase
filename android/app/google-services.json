@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379268196357",
+    "project_id": "pizza-rzeszow-869",
+    "storage_bucket": "pizza-rzeszow-869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379268196357:android:96e19be37b4b05423c946c",
+        "android_client_info": {
+          "package_name": "com.lukpot.pizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379268196357-q7n2i1h03isrsem7h6h91qtubt8gjhnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzFeE36-2oXzkQPCed2p2NtHPkw8P0Dc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379268196357-q7n2i1h03isrsem7h6h91qtubt8gjhnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

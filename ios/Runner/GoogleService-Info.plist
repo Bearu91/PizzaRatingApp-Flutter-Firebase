@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>379268196357-iuq9sndoc520bitphpnodgvi03mgd61m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.379268196357-iuq9sndoc520bitphpnodgvi03mgd61m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4z6VORDyru-fTNYkc7KZ6_T6T8KrcDNo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>379268196357</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lukpot.pizza</string>
+	<key>PROJECT_ID</key>
+	<string>pizza-rzeszow-869</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pizza-rzeszow-869.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:379268196357:ios:50ebc4d4be2b9eba3c946c</string>
+</dict>
+</plist>
