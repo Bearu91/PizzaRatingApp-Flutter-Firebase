@@ -28,7 +28,8 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextField(
-              decoration: InputDecoration(hintText: 'Podaj nazwe restauracji'),
+              decoration:
+                  const InputDecoration(hintText: 'Podaj nazwe restauracji'),
               onChanged: (newValue) {
                 setState(() {
                   restaurantName = newValue;
@@ -36,7 +37,7 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
               },
             ),
             TextField(
-              decoration: InputDecoration(hintText: 'Podaj nazwe pizzzy'),
+              decoration: const InputDecoration(hintText: 'Podaj nazwe pizzzy'),
               onChanged: (newValue) {
                 setState(() {
                   pizzaName = newValue;
@@ -66,7 +67,7 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
                       });
                       widget.onSave();
                     },
-              child: Text('Dodaj'),
+              child: const Text('Dodaj'),
             )
           ],
         ),

@@ -3,7 +3,7 @@ import 'dart:ffi';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:pizza/app/home/restaurants/restaurants_page_content.dart';
+import 'package:pizza/app/features/home/restaurants/restaurants_page_content.dart';
 
 import 'add_opinion/add_opinion_page_content.dart';
 import 'my_home/my_home.dart';
@@ -27,11 +27,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Najlepsza pizza w miescie'),
+        title: const Text('Najlepsza pizza w miescie'),
       ),
       body: Builder(builder: (context) {
         if (currentIndex == 0) {
-          return RestaurantsPageContent();
+          return const RestaurantsPageContent();
         }
         if (currentIndex == 1) {
           return AddOpinionPageContent(onSave: () {
